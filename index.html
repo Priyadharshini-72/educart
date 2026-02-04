@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduCart | Student Stationery Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <div class="logo">EduCart</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Cart</a>
+        <a href="#">Login</a>
+    </nav>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search stationery...">
+    </div>
+</header>
+
+<!-- HERO WITH BACKGROUND -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Everything Students Need, In One Place</h1>
+        <p>Safe • Affordable • Quality Stationery for Learning</p>
+        <button>Shop Now</button>
+    </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="section">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+        <div class="category-card">✏️ Pencils & Pens</div>
+        <div class="category-card">🎨 Art Supplies</div>
+        <div class="category-card">📒 Notebooks</div>
+        <div class="category-card">📚 Story Books</div>
+        <div class="category-card">📐 Geometry Box</div>
+        <div class="category-card">🖍️ Crayons</div>
+        <div class="category-card">🎒 School Bags</div>
+        <div class="category-card">🧠 Exam Guides</div>
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="section light">
+    <h2>Popular Products</h2>
+    <div class="product-grid">
+        <div class="card">
+            <img src="sketch.jpg">
+            <h3>Color Pencil Set</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="pen.webp">
+            <h3>Sketch Pens</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="notebook.jpg">
+            <h3>Notebook Pack</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="book.jpg">
+            <h3>Story Book</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<!-- KIDS SAFE ZONE -->
+<section class="kids-zone">
+    <div class="kids-text">
+        <h2>Kids Special – Safe & Fun Learning</h2>
+        <p>
+            Carefully selected stationery for children.
+            Bright colors, safe materials, and learning-focused designs.
+        </p>
+        <button>Explore Kids Collection</button>
+    </div>
+    <img src="kid1.jpeg">
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 EduCart | Student-Friendly Stationery Store</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
