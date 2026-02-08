@@ -133,6 +133,7 @@ nav a:hover {
     border-radius: 25px;
     box-shadow: 0 12px 30px rgba(0,0,0,0.12);
     transition: 0.3s;
+    
 }
 
 .card:hover {
@@ -144,6 +145,10 @@ nav a:hover {
     height: 180px;
     object-fit: cover;
     border-radius: 18px;
+}
+.card h3{
+    align-content: center;
+    padding-left: 70px;
 }
 
 .card button {
